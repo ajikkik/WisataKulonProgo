@@ -25,6 +25,33 @@ header {
   background-position: center;
 }
 
+@media (max-width: 768px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  main {
+    padding: 0 0.5rem;
+  }
+
+  .place {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .destination {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.place img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+
 
 .overlay {
   position: absolute;
