@@ -477,9 +477,5 @@ form button:hover {
   transform: scale(1.1);
 }
 
-.place img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-}
+
 
